@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="snow_table" max_length="40" name="x_303901_snow_prac_snow_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="idea type" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Cost savings" sequence="0" value="Cost"/>
+                <element label="Team building" sequence="1" value="Team"/>
+                <element label="Process improvement" sequence="2" value="Process"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="125" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="40" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="40" name="u_string_5" type="string"/>
+    </element>
+</database>
